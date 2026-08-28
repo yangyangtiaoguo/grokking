@@ -1,0 +1,23 @@
+[m3a_tau] a=2.25 wd=0.050 k=0 inj=unif b=128 B=240k s0 | unif= 0.988 hi= 1.000 | GROK  t_grok=80000
+[m3a_tau] a=2.25 wd=0.050 k=0 inj=unif b=128 B=240k s1 | unif= 0.994 hi= 1.000 | GROK  t_grok=86000
+[m3a_tau] a=2.25 wd=0.050 k=0 inj=unif b=128 B=240k s2 | unif= 0.997 hi= 1.000 | GROK  t_grok=12500
+[m3a_tau] a=2.50 wd=0.050 k=0 inj=unif b=128 B=240k s0 | unif= 0.995 hi= 1.000 | GROK  t_grok=83750
+[m3a_tau] a=2.50 wd=0.050 k=0 inj=unif b=128 B=240k s1 | unif= 0.987 hi= 1.000 | GROK  t_grok=99500
+[m3a_tau] a=2.50 wd=0.050 k=0 inj=unif b=128 B=240k s2 | unif= 0.975 hi= 1.000 | GROK  t_grok=148500
+[m3a_tau] a=2.60 wd=0.050 k=0 inj=unif b=128 B=240k s0 | unif= 0.642 hi= 0.989 | PARTIAL  t_grok=None
+[m3a_tau] a=2.60 wd=0.050 k=0 inj=unif b=128 B=240k s1 | unif= 0.965 hi= 1.000 | GROK  t_grok=146750
+[m3a_tau] a=2.60 wd=0.050 k=0 inj=unif b=128 B=240k s2 | unif= 0.732 hi= 0.997 | PARTIAL  t_grok=None
+[m3a_tau] a=2.75 wd=0.050 k=0 inj=unif b=128 B=240k s0 | unif= 0.902 hi= 0.998 | GROK  t_grok=201500
+[m3a_tau] a=2.75 wd=0.050 k=0 inj=unif b=128 B=240k s1 | unif= 0.836 hi= 0.997 | PARTIAL  t_grok=234500
+[m3a_tau] a=2.75 wd=0.050 k=0 inj=unif b=128 B=240k s2 | unif= 0.981 hi= 1.000 | GROK  t_grok=142250
+[m3a_tau] done: 12 runs, 4425s
+[m3b_alphac_budget] a=2.25 wd=0.300 k=0 inj=unif b=128 B=120k s0 | unif= 0.849 hi= 0.995 | PARTIAL  t_grok=116250
+[m3b_alphac_budget] a=2.25 wd=0.300 k=0 inj=unif b=128 B=120k s1 | unif= 0.683 hi= 0.993 | PARTIAL  t_grok=None
+[m3b_alphac_budget] a=2.25 wd=0.300 k=0 inj=unif b=128 B=120k s2 | unif= 0.739 hi= 0.993 | PARTIAL  t_grok=None
+[m3b_alphac_budget] a=2.25 wd=0.300 k=0 inj=unif b=128 B=240k s0 | unif= 0.584 hi= 0.971 | PARTIAL  t_grok=None
+[m3b_alphac_budget] a=2.25 wd=0.300 k=0 inj=unif b=128 B=240k s1 | unif= 0.840 hi= 0.994 | PARTIAL  t_grok=212500
+[m3b_alphac_budget] a=2.25 wd=0.300 k=0 inj=unif b=128 B=240k s2 | unif= 0.762 hi= 0.994 | PARTIAL  t_grok=None
+[m3b_alphac_budget] a=2.50 wd=0.300 k=0 inj=unif b=128 B=120k s0 | unif= 0.460 hi= 0.913 | TRAP  t_grok=None
+[m3b_alphac_budget] a=2.50 wd=0.300 k=0 inj=unif b=128 B=120k s1 | unif= 0.373 hi= 0.940 | TRAP  t_grok=None
+[m3b_alphac_budget] a=2.50 wd=0.300 k=0 inj=unif b=128 B=120k s2 | unif= 0.379 hi= 0.949 | TRAP  t_grok=None
+[m3b_alphac_budget] done: 9 runs, 2213s

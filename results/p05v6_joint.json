@@ -1,0 +1,182 @@
+[
+  {
+    "n": 10,
+    "frac": 0.5,
+    "wd": 0.3,
+    "init": 3.0,
+    "lr": 0.0005,
+    "n_grok": 0,
+    "tau_med": null,
+    "tail_min": 0.001953125,
+    "runs": [
+      {
+        "seed": 0,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.89599609375,
+        "ev_tail_min": 0.1640625,
+        "grokked": false,
+        "th0": 63.04594231648375,
+        "thF": 13.548292854620588
+      },
+      {
+        "seed": 1,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.8714192708333334,
+        "ev_tail_min": 0.001953125,
+        "grokked": false,
+        "th0": 63.2262425060704,
+        "thF": 12.617052698204152
+      },
+      {
+        "seed": 2,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.8986002604166666,
+        "ev_tail_min": 0.126953125,
+        "grokked": false,
+        "th0": 62.974719808360405,
+        "thF": 12.750278506819308
+      }
+    ]
+  },
+  {
+    "n": 10,
+    "frac": 0.5,
+    "wd": 0.3,
+    "init": 4.0,
+    "lr": 0.0005,
+    "n_grok": 2,
+    "tau_med": null,
+    "tail_min": 0.0,
+    "runs": [
+      {
+        "seed": 0,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.9442545572916666,
+        "ev_tail_min": 0.775390625,
+        "grokked": true,
+        "th0": 81.72035064114327,
+        "thF": 13.376197611898627
+      },
+      {
+        "seed": 1,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.8627115885416666,
+        "ev_tail_min": 0.00390625,
+        "grokked": false,
+        "th0": 81.85084040009637,
+        "thF": 12.971998091981524
+      },
+      {
+        "seed": 2,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.9267578125,
+        "ev_tail_min": 0.0,
+        "grokked": true,
+        "th0": 81.64512942638332,
+        "thF": 12.340365009767462
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "frac": 0.4,
+    "wd": 0.3,
+    "init": 3.0,
+    "lr": 0.0005,
+    "n_grok": 2,
+    "tau_med": null,
+    "tail_min": 0.0004068348250610252,
+    "runs": [
+      {
+        "seed": 0,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.9226335774342284,
+        "ev_tail_min": 0.024410089503661515,
+        "grokked": true,
+        "th0": 63.045744775748304,
+        "thF": 13.537858444854491
+      },
+      {
+        "seed": 1,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.8880017629509086,
+        "ev_tail_min": 0.0004068348250610252,
+        "grokked": false,
+        "th0": 63.22607600028341,
+        "thF": 13.387085970031972
+      },
+      {
+        "seed": 2,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.9565364795226472,
+        "ev_tail_min": 0.4979658258746949,
+        "grokked": true,
+        "th0": 62.97462636795231,
+        "thF": 15.070638917385594
+      }
+    ]
+  },
+  {
+    "n": 12,
+    "frac": 0.4,
+    "wd": 0.3,
+    "init": 4.0,
+    "lr": 0.0005,
+    "n_grok": 3,
+    "tau_med": -250,
+    "tail_min": 0.05451586655817738,
+    "runs": [
+      {
+        "seed": 0,
+        "tr_cross": 500,
+        "ev_cross": 250,
+        "tau": -250,
+        "ev_tail_mean": 0.9195653647952264,
+        "ev_tail_min": 0.2660699755899105,
+        "grokked": true,
+        "th0": 81.72049906562921,
+        "thF": 15.022168846633974
+      },
+      {
+        "seed": 1,
+        "tr_cross": 250,
+        "ev_cross": 250,
+        "tau": 0,
+        "ev_tail_mean": 0.9418056685652293,
+        "ev_tail_min": 0.05451586655817738,
+        "grokked": true,
+        "th0": 81.85094450063988,
+        "thF": 12.752545760104653
+      },
+      {
+        "seed": 2,
+        "tr_cross": 500,
+        "ev_cross": 500,
+        "tau": 0,
+        "ev_tail_mean": 0.9459248711689722,
+        "ev_tail_min": 0.1871440195280716,
+        "grokked": true,
+        "th0": 81.64473771890052,
+        "thF": 14.122313425573655
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+P11b budget control: n=12 steps=240000 (4x budget, cosine T_max=240k)
+cells=[(2.0, 0.3), (2.0, 0.2), (2.25, 0.15), (2.5, 0.1), (2.75, 0.05)], seeds 0,1
+
+a=2.00 wd=0.30 | s0 unif= 0.777 hi= 0.963 lo= 0.710 | PARTIAL (394s)
+a=2.00 wd=0.30 | s1 unif= 0.760 hi= 0.946 lo= 0.710 | PARTIAL (391s)
+a=2.00 wd=0.20 | s0 unif= 0.885 hi= 0.987 lo= 0.837 | PARTIAL (393s)
+a=2.00 wd=0.20 | s1 unif= 0.811 hi= 0.977 lo= 0.729 | PARTIAL (391s)
+a=2.25 wd=0.15 | s0 unif= 0.627 hi= 0.955 lo= 0.456 | PARTIAL (391s)
+a=2.25 wd=0.15 | s1 unif= 0.798 hi= 0.985 lo= 0.738 | PARTIAL (392s)
+a=2.50 wd=0.10 | s0 unif= 0.712 hi= 0.982 lo= 0.578 | PARTIAL (396s)
+a=2.50 wd=0.10 | s1 unif= 0.563 hi= 0.988 lo= 0.323 | PARTIAL (394s)
+a=2.75 wd=0.05 | s0 unif= 0.837 hi= 0.993 lo= 0.744 | PARTIAL (392s)
+a=2.75 wd=0.05 | s1 unif= 0.734 hi= 0.998 lo= 0.510 | PARTIAL (395s)
+
+elapsed 3929s -> results/p11b_budget_control.json

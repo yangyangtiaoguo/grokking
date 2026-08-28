@@ -1,0 +1,17 @@
+a=0.00 wd=0.05 k=0 s0 | unif= 1.000 hi= 1.000 lo= 1.000 | GROK (33s)
+a=0.00 wd=0.05 k=0 s1 | unif= 1.000 hi= 1.000 lo= 1.000 | GROK (32s)
+a=0.00 wd=0.05 k=0 s2 | unif= 1.000 hi= 1.000 lo= 1.000 | GROK (31s)
+a=0.00 wd=0.30 k=0 s0 | unif= 1.000 hi= 1.000 lo= 1.000 | GROK (31s)
+a=0.00 wd=0.30 k=0 s1 | unif= 1.000 hi= 1.000 lo= 1.000 | GROK (31s)
+a=0.00 wd=0.30 k=0 s2 | unif= 1.000 hi= 1.000 lo= 1.000 | GROK (32s)
+a=2.50 wd=0.05 k=0 s0 | unif= 0.044 hi= 0.234 lo= 0.022 | CRUSH (32s)
+a=2.50 wd=0.05 k=0 s1 | unif= 0.045 hi= 0.243 lo= 0.021 | CRUSH (31s)
+a=2.50 wd=0.05 k=0 s2 | unif= 0.047 hi= 0.255 lo= 0.022 | CRUSH (31s)
+a=2.50 wd=0.30 k=0 s0 | unif= 0.028 hi= 0.153 lo= 0.013 | CRUSH (32s)
+a=2.50 wd=0.30 k=0 s1 | unif= 0.029 hi= 0.154 lo= 0.014 | CRUSH (32s)
+a=2.50 wd=0.30 k=0 s2 | unif= 0.034 hi= 0.181 lo= 0.016 | CRUSH (31s)
+a=2.50 wd=0.30 k=1 s0 | unif= 0.025 hi= 0.112 lo= 0.016 | CRUSH (32s)
+a=2.50 wd=0.30 k=1 s1 | unif= 0.024 hi= 0.115 lo= 0.015 | CRUSH (32s)
+a=2.50 wd=0.30 k=1 s2 | unif= 0.025 hi= 0.115 lo= 0.016 | CRUSH (32s)
+
+done: 15 runs, 476s -> results/m6_modadd_existence.json

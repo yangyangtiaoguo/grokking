@@ -1,0 +1,6 @@
+k=0 s0: TRAP unif=0.373 hi=1.000 lo=0.211 33s
+k=0 s1: TRAP unif=0.436 hi=1.000 lo=0.246 32s
+k=0 s2: TRAP unif=0.430 hi=1.000 lo=0.256 32s
+k=1 s0: PARTIAL unif=0.885 hi=1.000 lo=0.857 32s
+k=1 s1: GROK unif=0.994 hi=1.000 lo=0.991 32s
+k=1 s2: GROK unif=0.997 hi=1.000 lo=0.996 32s

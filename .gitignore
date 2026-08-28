@@ -1,0 +1,25 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Model checkpoints (none currently present, kept as a guard)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Third-party reference PDFs (copyright; not our content)
+papers/
+
+# Internal tooling state, not part of the paper artifact
+.aris/
+.claude/
+
+# LaTeX build byproducts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc

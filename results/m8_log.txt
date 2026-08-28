@@ -1,0 +1,137 @@
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s0 | unif= 0.756 hi= 1.000 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s1 | unif= 0.592 hi= 0.969 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s2 | unif= 0.725 hi= 0.980 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s3 | unif= 0.182 hi= 0.690 | CRUSH
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s4 | unif= 0.826 hi= 0.985 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s5 | unif= 0.344 hi= 0.913 | TRAP
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s6 | unif= 0.689 hi= 0.998 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=1024 B=7k s7 | unif= 0.823 hi= 0.997 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s0 | unif= 0.961 hi= 0.998 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s1 | unif= 0.941 hi= 0.998 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s2 | unif= 0.888 hi= 0.995 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s3 | unif= 0.242 hi= 0.795 | CRUSH
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s4 | unif= 0.216 hi= 0.773 | CRUSH
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s5 | unif= 0.639 hi= 0.926 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s6 | unif= 0.788 hi= 0.985 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=512 B=15k s7 | unif= 0.853 hi= 0.996 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s0 | unif= 0.768 hi= 0.913 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s1 | unif= 0.760 hi= 0.920 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s2 | unif= 0.877 hi= 0.959 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s3 | unif= 0.745 hi= 0.935 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s4 | unif= 0.632 hi= 0.902 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s5 | unif= 0.637 hi= 0.909 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s6 | unif= 0.581 hi= 0.839 | PARTIAL
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=256 B=30k s7 | unif= 0.415 hi= 0.875 | CRUSH
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s0 | unif= 0.956 hi= 0.977 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s1 | unif= 0.969 hi= 0.987 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s2 | unif= 0.935 hi= 0.980 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s3 | unif= 0.957 hi= 0.977 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s4 | unif= 0.965 hi= 0.985 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s5 | unif= 0.944 hi= 0.979 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s6 | unif= 0.962 hi= 0.989 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s7 | unif= 0.958 hi= 0.982 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s0 | unif= 0.968 hi= 0.987 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s1 | unif= 0.972 hi= 0.989 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s2 | unif= 0.984 hi= 0.995 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s3 | unif= 0.984 hi= 0.992 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s4 | unif= 0.979 hi= 0.992 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s5 | unif= 0.987 hi= 0.996 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s6 | unif= 0.983 hi= 0.993 | GROK
+[m8a_dose_sweep] a=2.50 wd=0.300 k=2 inj=unif b=128 B=60k s7 | unif= 0.982 hi= 0.995 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s0 | unif= 0.926 hi= 0.990 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s1 | unif= 0.684 hi= 0.910 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s2 | unif= 0.570 hi= 0.846 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s3 | unif= 0.247 hi= 0.716 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s4 | unif= 0.953 hi= 1.000 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s5 | unif= 0.296 hi= 0.721 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s6 | unif= 0.131 hi= 0.598 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=1024 B=7k s7 | unif= 0.261 hi= 0.716 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s0 | unif= 0.979 hi= 1.000 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s1 | unif= 0.248 hi= 0.643 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s2 | unif= 0.077 hi= 0.445 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s3 | unif= 0.133 hi= 0.628 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s4 | unif= 0.463 hi= 0.809 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s5 | unif= 0.274 hi= 0.697 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s6 | unif= 0.705 hi= 0.891 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=512 B=15k s7 | unif= 0.736 hi= 0.881 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s0 | unif= 0.906 hi= 0.929 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s1 | unif= 0.801 hi= 0.897 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s2 | unif= 0.680 hi= 0.852 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s3 | unif= 0.241 hi= 0.681 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s4 | unif= 0.617 hi= 0.801 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s5 | unif= 0.668 hi= 0.837 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s6 | unif= 0.092 hi= 0.322 | CRUSH
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=256 B=30k s7 | unif= 0.743 hi= 0.829 | PARTIAL
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s0 | unif= 0.942 hi= 0.976 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s1 | unif= 0.932 hi= 0.953 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s2 | unif= 0.946 hi= 0.948 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s3 | unif= 0.941 hi= 0.955 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s4 | unif= 0.967 hi= 0.975 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s5 | unif= 0.939 hi= 0.970 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s6 | unif= 0.910 hi= 0.934 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=1 inj=unif b=128 B=60k s7 | unif= 0.964 hi= 0.976 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s0 | unif= 0.967 hi= 0.973 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s1 | unif= 0.987 hi= 0.992 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s2 | unif= 0.984 hi= 0.990 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s3 | unif= 0.972 hi= 0.975 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s4 | unif= 0.983 hi= 0.990 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s5 | unif= 0.982 hi= 0.982 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s6 | unif= 0.987 hi= 0.992 | GROK
+[m8a_dose_sweep] a=3.00 wd=0.300 k=2 inj=unif b=128 B=60k s7 | unif= 0.988 hi= 0.997 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s0 | unif= 0.767 hi= 0.975 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s1 | unif= 0.757 hi= 0.997 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s2 | unif= 0.694 hi= 0.938 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s3 | unif= 0.621 hi= 0.964 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s4 | unif= 0.968 hi= 1.000 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s5 | unif= 0.360 hi= 0.907 | TRAP
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s6 | unif= 0.128 hi= 0.681 | CRUSH
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=1024 B=7k s7 | unif= 0.592 hi= 0.938 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s0 | unif= 0.635 hi= 0.959 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s1 | unif= 0.852 hi= 0.989 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s2 | unif= 0.076 hi= 0.480 | CRUSH
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s3 | unif= 0.188 hi= 0.780 | CRUSH
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s4 | unif= 0.828 hi= 0.945 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s5 | unif= 0.600 hi= 0.883 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s6 | unif= 0.670 hi= 0.915 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=512 B=15k s7 | unif= 0.472 hi= 0.856 | CRUSH
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s0 | unif= 0.571 hi= 0.816 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s1 | unif= 0.967 hi= 0.991 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s2 | unif= 0.696 hi= 0.908 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s3 | unif= 0.392 hi= 0.843 | CRUSH
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s4 | unif= 0.535 hi= 0.790 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s5 | unif= 0.757 hi= 0.883 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s6 | unif= 0.867 hi= 0.916 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=256 B=30k s7 | unif= 0.669 hi= 0.846 | PARTIAL
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s0 | unif= 0.975 hi= 0.985 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s1 | unif= 0.974 hi= 0.986 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s2 | unif= 0.978 hi= 0.993 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s3 | unif= 0.935 hi= 0.975 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s4 | unif= 0.957 hi= 0.983 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s5 | unif= 0.906 hi= 0.965 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s6 | unif= 0.958 hi= 0.972 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=1 inj=unif b=128 B=60k s7 | unif= 0.925 hi= 0.978 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s0 | unif= 0.967 hi= 0.982 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s1 | unif= 0.969 hi= 0.979 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s2 | unif= 0.965 hi= 0.977 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s3 | unif= 0.947 hi= 0.976 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s4 | unif= 0.974 hi= 0.989 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s5 | unif= 0.974 hi= 0.983 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s6 | unif= 0.952 hi= 0.976 | GROK
+[m8a_dose_sweep] a=2.75 wd=0.300 k=2 inj=unif b=128 B=60k s7 | unif= 0.988 hi= 0.996 | GROK
+[m8a_dose_sweep] done: 120 runs, 7085s
+[m8b] inject=same_dist s0 unif=0.284 hi=0.878 | CRUSH
+[m8b] inject=same_dist s1 unif=0.422 hi=0.940 | TRAP
+[m8b] inject=same_dist s2 unif=0.232 hi=0.870 | CRUSH
+[m8b] inject=same_dist s3 unif=0.173 hi=0.850 | CRUSH
+[m8b] inject=same_dist s4 unif=0.274 hi=0.895 | CRUSH
+[m8b] inject=same_dist s5 unif=0.309 hi=0.935 | TRAP
+[m8b] inject=same_dist s6 unif=0.252 hi=0.884 | CRUSH
+[m8b] inject=same_dist s7 unif=0.308 hi=0.928 | TRAP
+[m8b] inject=rare_short s0 unif=0.805 hi=0.968 | PARTIAL
+[m8b] inject=rare_short s1 unif=0.771 hi=0.933 | PARTIAL
+[m8b] inject=rare_short s2 unif=0.597 hi=0.935 | PARTIAL
+[m8b] inject=rare_short s3 unif=0.796 hi=0.972 | PARTIAL
+[m8b] inject=rare_short s4 unif=0.694 hi=0.975 | PARTIAL
+[m8b] inject=rare_short s5 unif=0.635 hi=0.958 | PARTIAL
+[m8b] inject=rare_short s6 unif=0.872 hi=0.986 | PARTIAL
+[m8b] inject=rare_short s7 unif=0.829 hi=0.986 | PARTIAL

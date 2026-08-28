@@ -1,0 +1,6 @@
+a=0.00 wd=0.300 k=0 inj=unif b=128 B=60k s0 | unif= 1.000 hi= 1.000 | GROK  (93s)
+a=2.50 wd=0.300 k=0 inj=unif b=128 B=60k s0 | unif= 0.365 hi= 0.942 | TRAP  (92s)
+a=2.50 wd=0.300 k=1 inj=tail b=128 B=60k s0 | unif= 0.575 hi= 0.899 | PARTIAL  (93s)
+a=2.50 wd=0.300 k=1 inj=unif b=128 B=60k s0 | unif= 0.956 hi= 0.977 | GROK  (93s)
+
+sanity verdict: PASS  {0: 'GROK', 1: 'TRAP', 2: 'PARTIAL', 3: 'GROK'}

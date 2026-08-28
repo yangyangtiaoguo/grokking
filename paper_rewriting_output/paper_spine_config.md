@@ -1,0 +1,32 @@
+# PaperSpine Configuration
+
+| Field | Value |
+|---|---|
+| workflow | build_from_materials |
+| scene | conference |
+| tier | pro |
+| output_language | en |
+| target_name | Empirical Phase Diagrams of Grokking Failure under Data Skew, and a Low-Dose Rescue Intervention |
+| materials_dir | review-stage |
+| draft_path | review-stage/PAPER_SKELETON.md |
+| word_output | docx |
+| translation_package | none |
+| reference_mode | local_first |
+| reference_paths | papers, 选题现状说明.md, refine-logs |
+| citation_target_count | 25 |
+| humanize_tier | none |
+
+## User Motivation
+
+Answer Zhao (ACL 2026 Findings)'s open question about grokkability under data skew with an empirical (α, weight-decay) phase diagram, a minimal-dose rescue intervention, and cross-task generalization checks, after correcting the original proposal's mispredicted boundary direction.
+
+## Special Requirements
+
+1. Claim wording MUST follow `refine-logs/CLAIMS_FROM_RESULTS.md` verbatim scoping (post two-round independent audit) — do not drift to stronger original phrasing.
+2. Must execute writing-stage TODOs from `PAPER_SKELETON.md` Section 3.3 before finalizing Results: bootstrap CI, censoring-fraction tables, grid-resolution convergence plots, threshold-sensitivity analysis — all recomputed from `results/*.json` with cited code paths.
+3. Dyck-1 (C6.2) must be framed per skeleton: exploratory stress test, not equal-weight positive replication.
+4. No fabricated data — all numbers must trace to `results/*.json`.
+
+## Provenance
+
+Config source: user-directed session, skeleton already exists at `review-stage/PAPER_SKELETON.md` after 3 rounds of independent cross-model review (final score 8.5/10, verdict: almost). This is a `build_from_materials` workflow using the pre-audited skeleton and the project's experiment results as the material base — not a from-scratch ideation.

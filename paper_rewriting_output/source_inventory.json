@@ -1,0 +1,16 @@
+[
+  {
+    "path": "PAPER_SKELETON.md",
+    "extension": ".md",
+    "file_type": "word_text",
+    "role_hint": "draft",
+    "size_bytes": 14720
+  },
+  {
+    "path": "PAPER_SKELETON_v2.md",
+    "extension": ".md",
+    "file_type": "word_text",
+    "role_hint": "draft",
+    "size_bytes": 11019
+  }
+]

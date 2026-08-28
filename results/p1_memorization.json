@@ -1,0 +1,207 @@
+{
+  "results": [
+    {
+      "mem_step": 400,
+      "train_seq": 0.9993788819875776,
+      "eval_seq": 0.99755859375,
+      "theta": 28.213888956746583,
+      "n_train_unique": 1610,
+      "K": 12,
+      "frac_states": 0.39306640625,
+      "alpha": 0.0,
+      "seed": 0
+    },
+    {
+      "mem_step": 400,
+      "train_seq": 0.9993906154783668,
+      "eval_seq": 0.99951171875,
+      "theta": 28.56570397967124,
+      "n_train_unique": 1641,
+      "K": 12,
+      "frac_states": 0.400634765625,
+      "alpha": 0.0,
+      "seed": 1
+    },
+    {
+      "mem_step": 200,
+      "train_seq": 0.9993773349937733,
+      "eval_seq": 0.998779296875,
+      "theta": 27.801553897782505,
+      "n_train_unique": 1606,
+      "K": 12,
+      "frac_states": 0.39208984375,
+      "alpha": 0.0,
+      "seed": 2
+    },
+    {
+      "mem_step": 200,
+      "train_seq": 0.9993084370677732,
+      "eval_seq": 0.998779296875,
+      "theta": 28.19344014144903,
+      "n_train_unique": 1446,
+      "K": 10,
+      "frac_states": 0.35302734375,
+      "alpha": 0.5,
+      "seed": 0
+    },
+    {
+      "mem_step": 200,
+      "train_seq": 0.9993234100135318,
+      "eval_seq": 0.99951171875,
+      "theta": 28.274678976905538,
+      "n_train_unique": 1478,
+      "K": 11,
+      "frac_states": 0.36083984375,
+      "alpha": 0.5,
+      "seed": 1
+    },
+    {
+      "mem_step": 200,
+      "train_seq": 0.9993060374739764,
+      "eval_seq": 0.999267578125,
+      "theta": 27.81033278272253,
+      "n_train_unique": 1441,
+      "K": 12,
+      "frac_states": 0.351806640625,
+      "alpha": 0.5,
+      "seed": 2
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9987113402061856,
+      "eval_seq": 0.999755859375,
+      "theta": 29.444484663521248,
+      "n_train_unique": 776,
+      "K": 11,
+      "frac_states": 0.189453125,
+      "alpha": 1.0,
+      "seed": 0
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9987012987012988,
+      "eval_seq": 0.99609375,
+      "theta": 27.47277012028087,
+      "n_train_unique": 770,
+      "K": 10,
+      "frac_states": 0.18798828125,
+      "alpha": 1.0,
+      "seed": 1
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9987063389391979,
+      "eval_seq": 0.99951171875,
+      "theta": 27.534309822623303,
+      "n_train_unique": 773,
+      "K": 9,
+      "frac_states": 0.188720703125,
+      "alpha": 1.0,
+      "seed": 2
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9952380952380953,
+      "eval_seq": 0.998291015625,
+      "theta": 28.849019475684994,
+      "n_train_unique": 210,
+      "K": 8,
+      "frac_states": 0.05126953125,
+      "alpha": 1.5,
+      "seed": 0
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9951219512195122,
+      "eval_seq": 0.99853515625,
+      "theta": 28.4929581960853,
+      "n_train_unique": 205,
+      "K": 8,
+      "frac_states": 0.050048828125,
+      "alpha": 1.5,
+      "seed": 1
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9951923076923077,
+      "eval_seq": 0.978515625,
+      "theta": 27.40284095694241,
+      "n_train_unique": 208,
+      "K": 8,
+      "frac_states": 0.05078125,
+      "alpha": 1.5,
+      "seed": 2
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9838709677419355,
+      "eval_seq": 0.937255859375,
+      "theta": 28.82757390204314,
+      "n_train_unique": 62,
+      "K": 6,
+      "frac_states": 0.01513671875,
+      "alpha": 2.0,
+      "seed": 0
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9830508474576272,
+      "eval_seq": 0.93994140625,
+      "theta": 27.880066397116043,
+      "n_train_unique": 59,
+      "K": 6,
+      "frac_states": 0.014404296875,
+      "alpha": 2.0,
+      "seed": 1
+    },
+    {
+      "mem_step": null,
+      "train_seq": 0.9838709677419355,
+      "eval_seq": 0.56396484375,
+      "theta": 27.470957318067992,
+      "n_train_unique": 62,
+      "K": 5,
+      "frac_states": 0.01513671875,
+      "alpha": 2.0,
+      "seed": 2
+    }
+  ],
+  "agg": {
+    "0.0": {
+      "K": 12.0,
+      "theta": 28.19371561140011,
+      "eval": 0.9986165364583334
+    },
+    "0.5": {
+      "K": 11.0,
+      "theta": 28.09281730035903,
+      "eval": 0.9991861979166666
+    },
+    "1.0": {
+      "K": 10.0,
+      "theta": 28.15052153547514,
+      "eval": 0.9984537760416666
+    },
+    "1.5": {
+      "K": 8.0,
+      "theta": 28.248272876237568,
+      "eval": 0.9917805989583334
+    },
+    "2.0": {
+      "K": 5.666666666666667,
+      "theta": 28.05953253907572,
+      "eval": 0.813720703125
+    }
+  },
+  "config": {
+    "n": 12,
+    "n_train": 2048,
+    "wd": 0.01,
+    "max_steps": 4000,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  }
+}
