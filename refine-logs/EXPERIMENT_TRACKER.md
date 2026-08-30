@@ -66,3 +66,8 @@
 
 **M13 剂量解混淆实验**（2026-08-28，回应R6 MAJOR-1）：固定batch=128、steps=60000（与主任务协议完全一致），用"每步以概率q替换1个slot为均匀采样状态"实现分数期望剂量q/128，彻底避免原M8a协议里batch size与更新步数随剂量变化的混淆。q∈{0.1,0.25,0.5,0.75,1.0}×α∈{2.5,2.75,3.0}×8 seeds=120 runs，11127s（3.1h）无异常完成。**关键发现（如实报告，非选择性引用）**：剂量效应方向和粗略位置确认成立（pooled mean单调上升0.478→0.683→0.846→0.927→0.924，grok分数0/24→0/24→7/24→19/24→17/24），**但原协议报告的"0/8→8/8锐利跳变"很大程度是batch/steps混淆造成的假象**——干净设计下是渐进曲线，0.586%附近已基本饱和（19/24），0.781%(原k=1基准点)反而略降(17/24)，非二元阈值。已如实写入main.tex §4.2（新增Table "deconfounded dose sweep"）与摘要，明确保留batch-varying原始曲线（因为它是机制对照组和15k步捷径结果用的协议）并说明两者一致的范围是"0.4%-0.8%区间足够救援、0.2%以下不够"。PDF/Word重新编译，PaperSpine全部关卡PASS。 | results/m13_dose_clean.json |
 
+**GitHub 仓库发布**（2026-08-30）：`https://github.com/yangyangtiaoguo/grokking`，全部代码/结果JSON/论文源码已推送（197文件，排除.venv/papers/模型文件）。main.tex 的 code/data availability 声明从"接收后发布承诺"改为真实链接。
+
+| R7（预留，未跑）| — | — | 本轮直接跳到R8验证M13效果 | — |
+| R8 | **84/100** | **Minor Revision**（评审明确表态"改完这些就支持Accept"） | 分数从64跳升至84：三维度全部升至4/5。剩余问题全部为MINOR文字/表述层面：Related Work残留"mechanism-isolating"因果隔离措辞与Results段已有的"无法解耦breadth/entropy/state composition"限定语矛盾（**审稿人指出的是我们round6误判为"可保留"的一处真实不一致，已修正**）；"rises monotonically"用词不准（0.927→0.924实际下降）；"sufficient for rescue"过绝对；same_dist对照组机制描述有误；robustness贡献列表不应无保留说"Locally robust"（应明确4/7）；Limitations章节偏薄；剂量表需按α拆分（池化掩盖了组间异质性）。评审同时明确表态"不需要新的factorial熵/组成对照实验，也不需要更多模型规模"——round6-8的问题演进被评审自己认定"校准合理，不算过严"。 | R9 逐条修复（不逐条列评审全部8条limitations，只加1句浓缩关键限制，遵循"不过度防御/不过度拓展"指示） |
+
