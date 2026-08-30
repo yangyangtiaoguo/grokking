@@ -144,3 +144,37 @@ as the more reliable characterization of the transition's shape), with a new tab
 (Table~\ref{tab:doseclean}) giving the full deconfounded grok-fraction and
 mean-accuracy numbers per dose point. This closes round 6's MAJOR-1 with a genuine
 new measurement rather than a textual reframing of the existing confounded data.
+
+## Round 8-9 addendum (score jump: 64 -> 84/100, Minor Revision)
+
+A fourth independent review of the M13-revised manuscript (same external reviewer)
+scored **84/100, Minor Revision** (up from round 6's 64, Major Revision), stating
+"Subject to these changes, I would support acceptance." All three dimensions rose
+to 4/5. Verified prior fixes: deconfounded dose experiment, robustness count/criterion,
+modular-addition/Dyck-1 protocol specificity, numerical rounding, and — new this round
+— the GitHub repository (`https://github.com/yangyangtiaoguo/grokking`) was confirmed
+present in the manuscript text as a real URL, not a release promise.
+
+The reviewer also flagged one item we had judged (incorrectly, on reflection) as
+acceptable in round 6: several Related Work sentences still used "mechanism-isolating"
+and "isolates coverage" language that contradicts the Results section's own,
+correctly-hedged statement that the ranking does not decompose breadth from entropy
+and state composition. This was a genuine internal inconsistency, not an
+over-demanding request — fixed by rewording the two Related Work instances to
+"controlled injection ranking" / "points to a data-side coverage effect."
+
+Remaining MINOR items (textual/reporting fixes, no new experiments): "rises
+monotonically" corrected to "rises through $q=0.75$ and then plateaus" (the pooled
+means are not strictly monotonic); "sufficient for rescue" softened to "onset of
+substantial rescue probability" in both the dose section and abstract; the
+same-distribution control's mechanism description corrected (it is a null resampling
+of the same distribution, not a change to batch composition); the robustness
+contribution bullet reworded to state "4 of 7 directional predictions confirmed"
+rather than an unqualified "locally robust"; "validated" softened to "evaluated by"
+for the family-discrimination bullet; a per-$\alpha$ breakdown of the deconfounded
+dose sweep added as Appendix C (the pooled table alone obscured whether the effect
+was uniform across skew values); and the Limitations subsection extended by one
+sentence covering the robustness confirmation rate and the breadth/entropy/state-
+composition confound, rather than the reviewer's full 8-item checklist — per the
+user's explicit instruction to fix genuine issues without padding the paper with an
+exhaustive limitations list.
