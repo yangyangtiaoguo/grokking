@@ -178,3 +178,65 @@ sentence covering the robustness confirmation rate and the breadth/entropy/state
 composition confound, rather than the reviewer's full 8-item checklist — per the
 user's explicit instruction to fix genuine issues without padding the paper with an
 exhaustive limitations list.
+
+## Round 11 addendum: independent external review cross-check + M14 experiment
+
+The user and a collaborator independently obtained two external review documents
+("严格ICLR审稿意见.md", a strict simulated ICLR reviewer scoring 5/10 Weak Reject;
+"ICLR模拟审稿意见.md", scoring 6.8/10 Accept). Both were read in full and every
+verifiable technical claim was checked against the code/data before any change —
+consistent with this project's standing rule of never accepting or rejecting a
+reviewer claim without verification.
+
+**Verified true, fixed at near-zero cost (data already existed, just not
+surfaced in the manuscript):**
+- Threshold sensitivity (A_unif cutoff 0.85/0.9/0.95) had already been computed
+  in `stats_appendix.md` during the writing stage but never stated in `main.tex`.
+  Added one sentence to §3.3 (Verdict rule).
+- The 60k-vs-240k budget comparison uses an independent cosine schedule per
+  budget (`CosineAnnealingLR(opt, T_max=max_steps)`), not the same trajectory
+  checkpointed twice. Added one clarifying sentence to §4.1.
+- The rare-but-short-carry injection pool's exact construction (carry length
+  $c(x)<n/2$, restricted to the $N/10$ lowest-$P_\alpha$-weight such states)
+  was only in code, not in the manuscript. Added the exact definition inline
+  in §4.2.
+- A higher-dose point ($k=2$/128, $\approx 1.56\%$) already existed in
+  `m8a_dose_sweep.json` (8/8 generalizing at every tested $\alpha$) but was
+  never cited. Added one sentence to §4.2.
+
+**Verified NOT to be a real defect (declined to act):**
+- "ICLR模拟审稿意见.md" flagged a table with missing cell values; the actual
+  LaTeX table has no missing cells — this is almost certainly a PDF-extraction
+  artifact of the review website, not a defect in the manuscript.
+- Both documents raised SGD full hyperparameter tuning and default-init
+  ablation for modular addition as open questions; both require genuinely new
+  experiments, and the manuscript already discloses the corresponding
+  limitations plainly (SGD untuned, init scale differs by task) rather than
+  hiding them. Declined per the user's explicit instruction not to expand
+  scope chasing every reviewer question when the paper's existing disclosure
+  already manages the claim.
+
+**The one item judged genuinely acceptance-relevant, addressed with a new
+experiment (M14, `experiments/m14_breadth_composition.py`):** "严格ICLR审稿意见.md"
+was alone in explicitly stating that decomposing breadth from state
+composition in the injection-ranking controls was the single change most
+likely to move its verdict from Weak Reject toward Weak Accept. The existing
+rare_short-vs-uniform comparison confounds breadth (102 vs. 1024 candidate
+states) with composition (32 bottleneck states, $c(x)\ge n/2$, excluded vs.
+included) simultaneously, so it cannot attribute the effect to either alone.
+
+M14 holds composition fixed — bottleneck states are never in the injection
+pool at any setting — and varies only pool breadth among the remaining 992
+non-bottleneck states ($K\in\{102,300,600,992\}$, $\alpha=2.5$, $\lambda=0.3$,
+$k=1$/128, 8 seeds/cell, 32 runs, 2980s, no anomalies). Result, reported as
+found: generalization rises monotonically with $K$ (fraction generalizing
+$0/8\to1/8\to8/8\to7/8$; mean $A_{\mathrm{unif}}$ $0.750\to0.852\to0.947\to0.949$),
+reaching complete rescue at $K=600$ and matching full-state uniform
+injection's mean ($0.949$ vs. $0.956$) at $K=992$ — all without ever including
+a bottleneck state. This is a clean, positive answer: breadth among
+non-bottleneck states alone is sufficient for rescue at this cell; composition
+(bottleneck-state inclusion) is not necessary. Written up as new Appendix D
+with the full result table; §4.2 and the Limitations subsection were reworded
+from "does not decompose breadth from composition" to reflect that breadth vs.
+composition is now decomposed, with entropy (which co-varies with pool size)
+explicitly left as the one remaining undecomposed factor.
