@@ -3,6 +3,7 @@
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{array}
 \usepackage{hyperref}
 \usepackage{natbib}
 \usepackage{authblk}
@@ -196,9 +197,10 @@ We pre-specified, before running the corresponding experiments, the direction in
 
 \begin{table}[t]
 \centering
+\small
 \caption{Pre-specified directional predictions and outcomes at two boundary-adjacent cells ($\alpha{=}2.5,\lambda{=}0.085$, baseline mean $0.974$; and $\alpha{=}2.25,\lambda{=}0.125$, baseline mean $0.853$), 5 seeds each. Confirmation criterion: mean accuracy moves in the predicted direction at both cells. Four of seven directional predictions confirmed at both cells; the two interaction cells test additivity and carry no direction.}
 \label{tab:robustness}
-\begin{tabular}{llll}
+\begin{tabular}{@{}p{3.3cm}p{2.3cm}p{2.7cm}p{2.6cm}@{}}
 \toprule
 Perturbation & Predicted direction & Mean accuracy (both cells) & Outcome \\
 \midrule
@@ -258,12 +260,12 @@ Table~\ref{tab:relatedwork} summarizes how the nearest prior work compares to th
 
 \begin{table}[t]
 \centering
-\small
+\footnotesize
 \caption{Comparison to the nearest prior work along the axes this paper contributes.}
 \label{tab:relatedwork}
-\begin{tabular}{lcccccc}
+\begin{tabular}{@{}p{2.6cm}p{1.9cm}cccc>{\centering\arraybackslash}p{1.1cm}@{}}
 \toprule
-Work & Skew axis & Finite-budget map & Rescue controls & Exposure match & Task transfer & Toy scale \\
+Work & Skew axis & \shortstack{Finite-\\budget map} & \shortstack{Rescue\\controls} & \shortstack{Exposure\\match} & \shortstack{Task\\transfer} & Toy scale \\
 \midrule
 Zhao \citeyearpar{zhao2026grok} & discrete (2 pts) & --- & --- & --- & --- & \checkmark \\
 Liu et al.\ \citeyearpar{liu2022effectivetheory,liu2022omnigrok} & data fraction & \checkmark & --- & --- & \checkmark & \checkmark \\
